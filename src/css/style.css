@@ -1,0 +1,124 @@
+body {
+    font-family: 'Oxanium', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-image: url(/src/imagens/ryubackground.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flexbox;
+    color:black;
+}
+
+body.modo-escuro {
+    background-image: url(/src/imagens/akumabackground.png);
+    display: flexbox;
+    color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header .logo {
+    max-width: 150px;
+    cursor: pointer;
+}
+header .imagem-botao {  
+    max-width: 50px;
+}
+
+header .logo:hover,
+header .imagem-botao:hover {
+    transform: scale(1.10);
+    transition: 0.5s ease-in-out;
+}
+
+header #botao-alterar-tema {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+main {
+    padding: 25px;
+}
+
+main .lista-streetfighters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .cartao-streetfighters {
+    display: flex;
+    background-image: linear-gradient(to bottom, hsla(210, 100%, 56%, 0.756), hsla(203, 92%, 75%, 0.767), hsla(0, 0%, 100%, 0.718));
+    width: 222px;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+}
+
+.modo-escuro .cartao-streetfighters {
+    background-image: linear-gradient(to bottom, hsla(282, 100%, 41%, 0.84), #e6e6fad9);
+    color:#f5f5f5;
+} 
+
+.modo-escuro .cartao-streetfighters:hover {
+    background-color: darkmagenta;
+}
+main .cartao-streetfighters:hover {
+    background-color: #0000CD;
+    transform: scale(1.02);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+main .cartao-streetfighters .informacoes {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #333333;
+    border-radius: 8px;
+}
+
+main .cartao-streetfighters .informacoes span {
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+main .cartao-streetfighters .gif {
+    width: 100px;
+    height: 100px;
+}
+
+main .cartao-streetfighters .origem-estilo {
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.pais {
+    background-color: orangered;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.estilo-de-luta {
+    background-color: orange;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+main .descricao{
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 15px;
+    padding-right: 10px;
+}
