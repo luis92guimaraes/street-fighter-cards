@@ -17,15 +17,15 @@
 
 #### Tela Desktop
 
-<img src="./src/github/desktop.gif" alt="Tela desktop exibindo funcionalidades">
+<img src="./src/imagens/desktop.gif" alt="Tela desktop exibindo funcionalidades">
 
 #### Tela Ipad
 
-<img src="./src/github/ipad.gif" alt="Tela tablet exibindo funcionalidades">
+<img src="./src/imagens/ipad.gif" alt="Tela tablet exibindo funcionalidades">
 
 #### Tela Mobile
 
-<img src="./src/github/mobile.gif" alt="Exibindo responsividade no mobile">
+<img src="./src/imagens/mobile.gif" alt="Exibindo responsividade no mobile">
 
 ### Links
 
