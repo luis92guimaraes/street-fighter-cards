@@ -2,7 +2,7 @@ body {
     font-family: 'Oxanium', sans-serif;
     max-width: 1280px;
     margin: 0 auto;
-    background-image: url(/src/imagens/ryubackground.jpg);
+    background-image: url(../src/imagens/ryubackground.jpg);
     background-attachment: fixed;
     background-size: cover;
     display: flexbox;
@@ -10,7 +10,7 @@ body {
 }
 
 body.modo-escuro {
-    background-image: url(/src/imagens/akumabackground.png);
+    background-image: url(../src/imagens/akumabackground.png);
     display: flexbox;
     color: #f5f5f5;
 }
