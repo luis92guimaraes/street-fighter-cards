@@ -10,7 +10,7 @@ body {
 }
 
 body.modo-escuro {
-    background-image: url(".src/imagens/akumabackground.png");
+    background-image: url("./src/imagens/akumabackground.png");
     display: flexbox;
     color: #f5f5f5;
 }
