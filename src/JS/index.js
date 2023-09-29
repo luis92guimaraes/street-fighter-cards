@@ -8,8 +8,8 @@ botaoAlterarTema.addEventListener("click", () => {
     body.classList.toggle("modo-escuro");
     
     if (modoEscuroEstaAtivo) {
-        imagemBotaoTrocaDeTema.setAttribute("src", "/src/imagens/hadouken.modoclaro.png");
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/imagens/hadouken.modoclaro.png");
     } else {
-        imagemBotaoTrocaDeTema.setAttribute("src", "/src/imagens/hadouken.modoescuro.png");
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/imagens/hadouken.modoescuro.png");
     }
 });
